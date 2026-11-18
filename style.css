@@ -139,3 +139,12 @@ footer a:hover{color:var(--brass)}
 }
 @media (max-width:520px){.photos{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.motes{display:none}*{transition:none!important}}
+
+/* Mobile first pass (Nov 18): larger labels and tap targets on phones */
+@media (max-width:600px){
+  .bar nav a{font-size:14px;letter-spacing:.14em}
+  .kicker{font-size:13.5px;letter-spacing:.24em}
+  .btn,.window .more,.back,.photo a{font-size:13.5px}
+  .arch figcaption,.window .tag,.news time,article.release .dateline,.facts dt{font-size:13px}
+  .facts dd a,.release a{display:inline-block;padding-block:8px}
+}
