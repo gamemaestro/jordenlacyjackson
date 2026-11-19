@@ -52,7 +52,7 @@ h1 em{font-style:italic;font-weight:400;color:var(--brass)}
 
 /* Arched portrait */
 .arch{position:relative;justify-self:center;width:min(100%,380px)}
-.arch img{display:block;width:100%;aspect-ratio:9/11.7;object-fit:cover;border-radius:999px 999px 6px 6px;box-shadow:0 0 80px rgba(196,167,116,.12)}
+.arch img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center top;border-radius:999px 999px 6px 6px;box-shadow:0 0 80px rgba(196,167,116,.12)}
 .arch::before{content:"";position:absolute;inset:-12px;border:1px solid var(--brass-dim);border-radius:999px 999px 10px 10px;pointer-events:none}
 .arch figcaption{margin-top:20px;text-align:center;font-family:var(--engraved);font-size:11.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--stone)}
 
